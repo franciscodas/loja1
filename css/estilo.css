@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter+Tight:wght@500;600 & family= Romanesco & family= Secular+One & family= Shadows+Into+Light & exibir=trocar');
+
+body{
+    background-image: url(../imagens/capa.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list >ul{
+    display: flex;
+    margin-left: 1px;
+    list-style: none;
+}
+
+.logo{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 100%;
+}
+.foto{
+    width: 200px;
+}
+
+.list1 >ul{
+    display: flex;
+    list-style: none;
+}
+.list-item :hover{
+    color: #323251;
+    font-size: 22px;
+}
+.list-item >a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+    margin:0 15px;
+    font-family: "inter" san serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+.botao{
+    background-color:rgba(52, 99, 255, 0.884);
+    margin-left: -15px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+.botao >a{
+    list-style: none;
+    font-family: "inter" san serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.botao1{
+    width: 35px;
+}
+.mobile-ico button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+}
+.mobile-ico{
+    display:none ;
+    margin-left: 49px;
+    padding-left: 1px;
+}
+.menu1{
+    display:none ;
+}
+ul{
+    list-style: none;
+}
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login2{
+    margin-left: 60px;
+}
+@media screen and (max-width: 768px){
+   .menu{
+    padding: 1.5rem 4rem;
+   } 
+   .list{
+    display: none;
+   }
+   .list1{
+    display: none;
+   }
+   .login{
+    display: none;
+   }
+   .mobile-ico{
+    display: block;
+   }
+}
+.corpo{
+    border-top: 1px solid #fff;
+    margin-top: 15px;
+}
+.corpo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.botao-sessao{
+    height: 30px;
+}
+.imagem{
+    width: 400px;
+    height: 400px;
+}
+.titulo{
+    font-family: "inter" sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+.sub-titulo{
+    font-family: "inter" sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+.fotop{
+    width: 295px;
+    border-radius: 5px;
+    margin: 0%
+}
+.titulo-mobile{
+    font-family: "inter" sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 1px 1px black
+}
+.sessao-mobile{
+    display: none;
+}
+@media screen and (max-width: 768px)  {
+    .corpo .corpo-principal{
+        display: none;
+    }
+    .sessao-mobile{
+        display: block;
+    }
+}
