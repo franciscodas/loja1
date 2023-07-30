@@ -8,3 +8,7 @@ btn.addEventListener('click', function(){
         container.style.display = 'block';
     }
 });
+function clicar(){
+    var a = document.querySelector(".botao-sessao")
+    a.innerText = "clicado"
+}
